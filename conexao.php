@@ -5,13 +5,13 @@
 $servidor = 'localhost';
 $usuario = 'root';
 $senha = '';
-$banco = 'bd_reservas';
+$banco = 'bd_cadastro_pet';
 
 $conexao = mysqli_connect($servidor, $usuario, $senha, $banco);
 
 if(!$conexao)
     {
-    die("<h3>Não conectado. Erro: " . mysqli_connect_error());
+    die("<h3>Falha ao conectar. Erro: " . mysqli_connect_error());
     }
 
 ?>
@@ -24,4 +24,3 @@ if(!$conexao)
 
 
 
-?>

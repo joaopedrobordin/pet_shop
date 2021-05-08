@@ -1,8 +1,10 @@
 CREATE DATABASE bd_cadastro_pet;
 
-CREATE TABLE tb_reservado(
+USE bd_cadastro;
+
+CREATE TABLE tb_client(
     nome VARCHAR(15) NOT NULL,
     raca VARCHAR(23) NOT NULL,
-    sexo VARCHAR(5) NOT NULL,
-    obs VARCHAR(4) NOT NULL)
+    sexo VARCHAR(9) NOT NULL,     
+    obs VARCHAR(255) NOT NULL)
     
