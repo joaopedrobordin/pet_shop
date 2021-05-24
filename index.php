@@ -16,20 +16,20 @@
 
             <div class="col-sm-5">
                 <label for="nome">Nome</label>
-                <input type="text">
+                <input type="text" value="nome">
             </div>
             <div class="col-sm-2">
                 <label for="sexo">Sexo</label>
-                <input type="text">
+                <input type="text" value="sexo">
             </div>
             <div class="col-sm-5">
                 <label for="raça">Raça</label>
-                <input type="text">              
+                <input type="text" value="raca">              
             </div>
-                <textarea></textarea>
+                <textarea value="obs">
+                </textarea>
 
-                <label for="client">Já é cliente ?</label>
-                <input type="radio"></input>
+                
 
                 <input type="submit" value="submit">
         </div>
